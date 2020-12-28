@@ -35,7 +35,7 @@ router.post('/', async (req, res, next) => {
     });
   } else {
     const user = await User.findByUserName(req.body.username).catch(next);
-      if (!user) return res.status(401).json({ code: 401, msg: 'Authentication failed. User not found.' });
+      if (!user) return res.status(401).json({ code: 404, msg: 'Authentication failed. User not found.' });
       user.comparePassword(req.body.password, (err, isMatch) => {
         if (isMatch && !err) {
           // if user is found and password is right create a token
@@ -58,8 +58,21 @@ router.post('/', async (req, res, next) => {
 router.post('/:userName/favourites', async (req, res, next) => {
   const newFavourite = req.body.id;
   const userName = req.params.userName;
-  const movie = await movieModel.findByMovieDBId(newFavourite);
-  const user = await User.findByUserName(userName);
+
+  const movie = await movieModel.findByMovieDBId(newFavourite).catch(next);
+  if(!movie) {
+    return res.status(404).json({ code: 404, msg: 'Movie not found.' });
+  }
+
+  const user = await User.findByUserName(userName).catch(next);
+  if(!movie) {
+    return res.status(404).json({ code: 404, msg: 'User not found.' });
+  }
+
+  if(user.favourites.includes(movie._id)) {
+    return res.status(409).json({ code: 409, msg: 'Favourite already exists' });
+  }
+
   await user.favourites.push(movie._id);
   await user.save(); 
   res.status(201).json(user); 
