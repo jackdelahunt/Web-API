@@ -19,6 +19,14 @@ router.get('/:userName/favourites', (req, res, next) => {
   ).catch(next);
 });
 
+// Get a single user
+router.get('/:userName', (req, res, next) => {
+  const userName = req.params.userName;
+  User.findByUserName(userName).then(
+    user => res.status(201).json(user)
+  ).catch(next);
+});
+
 // register
 router.post('/', async (req, res, next) => {
   if (!req.body.username || !req.body.password) {

@@ -4,13 +4,9 @@ import {movies} from './movies.js';
 
 const users = [
   {
-    'username': 'user1',
-    'password': 'test1',
-  },
-  {
-    'username': 'user2',
-    'password': 'test2',
-  },
+    'username': 'jack',
+    'password': 'jack',
+  }
 ];
 
 // deletes all user documents in collection and inserts test data

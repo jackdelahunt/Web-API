@@ -1,0 +1,10 @@
+{"url":"/api/movies/","Method":"GET","Date":"1/8/2021, 02:44:52","Token":"localhost:3000"}
+{"url":"/api/movies/","Method":"GET","Date":"1/8/2021, 02:45:47","Token":"localhost:3000"}
+{"url":"/api/movies/","Method":"GET","Date":"1/8/2021, 02:45:54","Token":"localhost:3000"}
+{"url":"/api/users","Method":"POST","Date":"1/8/2021, 02:46:03","Token":"localhost:3000"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/8/2021, 02:46:04","Token":"localhost:3000"}
+{"url":"/api/users/","Method":"GET","Date":"1/8/2021, 02:48:37","Token":"Bearer eyJhbGciOiJIUzI1NiJ9.dXNlcjE.FmYria8wq0aFDHnzYWhKQrhF5BkJbFNN1PqNyNQ7V4M"}
+{"url":"/api/users/","Method":"GET","Date":"1/8/2021, 02:49:24","Token":"Bearer eyJhbGciOiJIUzI1NiJ9.dXNlcjE.FmYria8wq0aFDHnzYWhKQrhF5BkJbFNN1PqNyNQ7V4M"}
+{"url":"/api/users/","Method":"GET","Date":"1/8/2021, 02:49:56","Token":"Bearer eyJhbGciOiJIUzI1NiJ9.dXNlcjE.FmYria8wq0aFDHnzYWhKQrhF5BkJbFNN1PqNyNQ7V4M"}
+{"url":"/api/users/","Method":"GET","Date":"1/8/2021, 02:49:59","Token":"Bearer eyJhbGciOiJIUzI1NiJ9.dXNlcjE.FmYria8wq0aFDHnzYWhKQrhF5BkJbFNN1PqNyNQ7V4M"}
+{"url":"/api/movies/","Method":"GET","Date":"1/8/2021, 02:53:54","Token":"Bearer eyJhbGciOiJIUzI1NiJ9.dXNlcjE.FmYria8wq0aFDHnzYWhKQrhF5BkJbFNN1PqNyNQ7V4M"}

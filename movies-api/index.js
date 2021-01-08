@@ -8,6 +8,7 @@ import genreRouter from './api/genres'
 import session from "express-session";
 import passport from "./authenticate";
 import {loadUsers, loadMovies} from './seedData';
+import Log from "./Logs/Log";
 
 dotenv.config();
 
@@ -26,8 +27,12 @@ const errHandler = (err, req, res, next) => {
 };
 
 const app = express();
+
 const port = process.env.PORT;
 
+//configure body-parser
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
 
 app.use(session({
   secret: 'ilikecake',
@@ -35,10 +40,9 @@ app.use(session({
   saveUninitialized: true
 }));
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
 app.use(express.static('public'));
-//app.use(passport.initialize());​
+app.use(passport.initialize());
+//app.use('/api/movies', moviesRouter);
 app.use('/api/movies', passport.authenticate('jwt', {session: false}), moviesRouter);
 app.use('/api/users', usersRouter);
 app.use('/api/genres', genreRouter);
