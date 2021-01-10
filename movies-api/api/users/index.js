@@ -63,6 +63,8 @@ router.post('/', async (req, res, next) => {
     }
 });
 
+
+// add a favourite to a user
 router.post('/:userName/favourites', async (req, res, next) => {
   const newFavourite = req.body.id;
   const userName = req.params.userName;

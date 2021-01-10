@@ -5,7 +5,7 @@ const Log = (req, res, next) => {
         "url": req.url,
         "Method": req.method,
         "Date": new Date().toLocaleString(),
-        "Token": req.rawHeaders[1],
+        "Token": req.headers.authorization,
     }) + "\n");
     next();
 }
