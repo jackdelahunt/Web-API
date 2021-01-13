@@ -27,6 +27,19 @@ router.get('/:userName', (req, res, next) => {
   ).catch(next);
 });
 
+// delete a single user
+router.delete('/:userName', (req, res, next) => {
+  const userName = req.params.userName;
+  User.findByUserName(userName).then((user) => {
+    User.deleteOne({_id: user._id})
+    .then(res.status(201).status("Good"))
+    .catch(next);
+    
+  });
+  return res;
+});
+
+
 // register
 router.post('/', async (req, res, next) => {
   if (!req.body.username || !req.body.password) {
@@ -75,7 +88,7 @@ router.post('/:userName/favourites', async (req, res, next) => {
   }
 
   const user = await User.findByUserName(userName).catch(next);
-  if(!movie) {
+  if(!user) {
     return res.status(404).json({ code: 404, msg: 'User not found.' });
   }
 
