@@ -63,7 +63,7 @@ Give an overview of your web API design, perhaps similar to the following:
 | /api/movies/{movieid} | Get a Movie | N/A | N/A | N/A
 | /api/movies/{movieid}/reviews | Get all reviews for movie | N/A| N/A | N/A  
 | /api/users | Get a list of all users | Registers a user | Updates a users detials | N/A
-| /api/users/{username} | Get user details | N/A | N/A | N/A
+| /api/users/{username} | Get user details | N/A | N/A | Delete a single user
 | /api/users/{username}/favourites | Get a users favourites | Add a favourite to a user | N/A | N/A
 | ... | ... | ... | ... | ...
 
