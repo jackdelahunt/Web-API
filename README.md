@@ -1,16 +1,13 @@
 # Assignment 2 - Web API.
 
-Name: Your Name
+### Jack Delahunt - 20085409
 
 ## Features.
 
 ...... A bullet-point list of the ADDITIONAL features you have implemented in the API **THAT WERE NOT IN THE LABS** ......,
  
- + Feature 1 - .... a statement of its purpose/objective ..... 
- + Feature 2 - .......
- + Feature 3 = ......
- + etc
- + etc
+ + Feature 1 - Logging to record requests to the server
+ + Feature 2 - Delete route for users
 
 ## Installation Requirements
 
@@ -75,7 +72,30 @@ Give details of authentication/ security implemented on the API(e.g. passport/se
 
 ## Integrating with React App
 
-Describe how you integrated your React app with the API. Perhaps link to the React App repo and give an example of an API call from React App. For example: 
+React App Link - https://github.com/jackdelahunt/Neo-Movie-Viewer
+
+In the react app an example of using this api can be seen here. This call gets all the movies stored in the database. Authorization is needed to make this request.
+~~~Javascript
+export const apiGetMovies = () => {
+    return fetch(
+      '/api/movies/',
+      {
+        headers: {
+        'Content-Type': 'application/json',
+        'Authorization': window.localStorage.getItem('token')
+      },
+      }
+    ).then(res =>res.json())
+};
+~~~
+This call gets a specific movie in the database based on the id entered. Authorization is needed to make this request.
+~~~Javascript
+export const apiGetMovie = (id) => {
+  return fetch(
+    `/api/movies/${id}`
+  ).then(res => res.json());
+};
+~~~
 
 ~~~Javascript
 export const getMovies = () => {
