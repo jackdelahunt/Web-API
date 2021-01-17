@@ -2,17 +2,13 @@
 
 ### Jack Delahunt - 20085409
 
-## Features.
-
-...... A bullet-point list of the ADDITIONAL features you have implemented in the API **THAT WERE NOT IN THE LABS** ......,
- 
+## Features. 
  + Feature 1 - Logging to record requests to the server
- + Feature 2 - Delete route for users
+ + Feature 2 - Post route for user favourites
+ + Feature 3 - Delete route for user favourites
+ + Feature 4 - Delete route for users
 
 ## Installation Requirements
-
-Describe what needs to be on the machine to run the API (Node v?, NPM, MongoDB instance, any other 3rd party software not in the package.json). 
-
 Node must be configured on the local machine and so will MongoDB.
 
 Clone the repo by entering the following:
@@ -33,9 +29,6 @@ npm start
 ```
 
 ## API Configuration
-Describe any configuration that needs to take place before running the API. For example, creating an ``.env`` and what variables to put in it. Give an example of how this might be structured/done.
-REMEMBER: DON'T PUT YOUR OWN USERNAMES/PASSWORDS/AUTH KEYS IN THE README OR ON GITHUB, just placeholders as indicated below:
-
 Create a ``.env`` file and place it in the **root** directory an example of how the enviroment can be setup is as follows:
 
 ```bat
@@ -52,8 +45,6 @@ If *seedDb* is true then the database will be given dummy data on startup.
 
 
 ## API Design
-Give an overview of your web API design, perhaps similar to the following: 
-
 |  |  GET | POST | PUT | DELETE
 | -- | -- | -- | -- | -- 
 | /api/movies |Gets a list of movies | N/A | N/A |
@@ -61,14 +52,9 @@ Give an overview of your web API design, perhaps similar to the following:
 | /api/movies/{movieid}/reviews | Get all reviews for movie | N/A| N/A | N/A  
 | /api/users | Get a list of all users | Registers a user | Updates a users detials | N/A
 | /api/users/{username} | Get user details | N/A | N/A | Delete a single user
-| /api/users/{username}/favourites | Get a users favourites | Add a favourite to a user | N/A | N/A
-| ... | ... | ... | ... | ...
-
-If you have your API design on an online platform or graphic, please link to it (e.g. [Swaggerhub](https://app.swaggerhub.com/)).
-
-
+| /api/users/{username}/favourites | Get a users favourites | Add a favourite to a user | N/A | Delete user favourite movie
 ## Security and Authentication
-Give details of authentication/ security implemented on the API(e.g. passport/sessions). Indicate which routes are protected.
+Authentication was managed with JWT with passport, user routes are protected and require BEARER tokens to be authenticated.
 
 ## Integrating with React App
 

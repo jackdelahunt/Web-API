@@ -123,3 +123,119 @@
 {"url":"/api/users","Method":"GET","Date":"1/17/2021, 12:27:04"}
 {"url":"/api/users/jack/favourites/","Method":"DELETE","Date":"1/17/2021, 12:27:06"}
 {"url":"/api/users","Method":"GET","Date":"1/17/2021, 12:27:08"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:01:33"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:01:59"}
+{"url":"/api/movies","Method":"GET","Date":"1/17/2021, 13:02:03"}
+{"url":"/api/users/jack/favourites/","Method":"POST","Date":"1/17/2021, 13:02:08"}
+{"url":"/api/users/jack/favourites/","Method":"GET","Date":"1/17/2021, 13:02:26"}
+{"url":"/api/users/jack","Method":"DELETE","Date":"1/17/2021, 13:03:13"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:03:16"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:03:29"}
+{"url":"/api/movies","Method":"GET","Date":"1/17/2021, 13:03:30"}
+{"url":"/api/users/jack/favourites/","Method":"POST","Date":"1/17/2021, 13:03:32"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:03:34"}
+{"url":"/api/users/jack/favourites/","Method":"GET","Date":"1/17/2021, 13:03:40"}
+{"url":"/api/users/jack/favourites/","Method":"DELETE","Date":"1/17/2021, 13:03:47"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:03:50"}
+{"url":"/api/users/jack","Method":"DELETE","Date":"1/17/2021, 13:03:54"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:03:56"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:04:47","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:29"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:31"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:33"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:35"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:40"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:40"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:40"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:41"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:41"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:41"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:05:58"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:05:59","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:06:13","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:06:14","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/508442","Method":"GET","Date":"1/17/2021, 13:06:21"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:06:27","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:06:42"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:06:42","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:06:55"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:07:05"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:07:20","Token":"null"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:07:28"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:07:28","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:07:51"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:07:52","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:13:31"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:13:32","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:13:55"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:14:08","Token":"null"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:14:16"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:14:18"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:14:21"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:14:21","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:14:42"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:15:44","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/671583","Method":"GET","Date":"1/17/2021, 13:16:20"}
+{"url":"/api/movies/577922","Method":"GET","Date":"1/17/2021, 13:16:25"}
+{"url":"/api/movies/590706","Method":"GET","Date":"1/17/2021, 13:16:36"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:17:41","Token":"null"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:18:22"}
+{"url":"/api/movies/475557","Method":"GET","Date":"1/17/2021, 13:18:25"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:18:41"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:18:41","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:19:01","Token":"null"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:19:11"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:19:12","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:19:46","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies","Method":"GET","Date":"1/17/2021, 13:20:08"}
+{"url":"/api/users/jack/favourites/","Method":"POST","Date":"1/17/2021, 13:20:38"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:20:49","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"GET","Date":"1/17/2021, 13:20:57"}
+{"url":"/api/users/jack/favourites/","Method":"DELETE","Date":"1/17/2021, 13:21:26"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:21:32","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"DELETE","Date":"1/17/2021, 13:21:36"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:21:41","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:21:50","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack","Method":"DELETE","Date":"1/17/2021, 13:22:13"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:22:16","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/671583","Method":"GET","Date":"1/17/2021, 13:26:15"}
+{"url":"/api/movies/577922","Method":"GET","Date":"1/17/2021, 13:26:18"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:26:32"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:26:46"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:26:47","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/590706","Method":"GET","Date":"1/17/2021, 13:27:01"}
+{"url":"/api/movies/577922","Method":"GET","Date":"1/17/2021, 13:27:03"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:27:17"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:27:58","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies","Method":"GET","Date":"1/17/2021, 13:28:10","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"POST","Date":"1/17/2021, 13:28:41","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:28:52","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"POST","Date":"1/17/2021, 13:29:03","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"GET","Date":"1/17/2021, 13:29:15","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"DELETE","Date":"1/17/2021, 13:29:52","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/524047","Method":"GET","Date":"1/17/2021, 13:30:27"}
+{"url":"/api/movies/","Method":"GET","Date":"1/17/2021, 13:31:11","Token":"null"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:31:58"}
+{"url":"/api/movies/524047","Method":"GET","Date":"1/17/2021, 13:32:10"}
+{"url":"/api/users","Method":"POST","Date":"1/17/2021, 13:32:19"}
+{"url":"/api/users/jack","Method":"GET","Date":"1/17/2021, 13:32:19","Token":"BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies/577922","Method":"GET","Date":"1/17/2021, 13:32:29"}
+{"url":"/api/movies/602211","Method":"GET","Date":"1/17/2021, 13:32:33"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:32:44"}
+{"url":"/api/movies/682377","Method":"GET","Date":"1/17/2021, 13:33:19"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:33:37","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/movies","Method":"GET","Date":"1/17/2021, 13:34:23","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"POST","Date":"1/17/2021, 13:34:49","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:35:12","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"POST","Date":"1/17/2021, 13:35:25","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:35:35","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"GET","Date":"1/17/2021, 13:35:45","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"GET","Date":"1/17/2021, 13:36:02","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:36:35","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"DELETE","Date":"1/17/2021, 13:36:39","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:36:42","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack/favourites/","Method":"DELETE","Date":"1/17/2021, 13:36:50","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack","Method":"DELETE","Date":"1/17/2021, 13:37:13","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users/jack","Method":"DELETE","Date":"1/17/2021, 13:37:18","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:37:26","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
+{"url":"/api/users","Method":"GET","Date":"1/17/2021, 13:37:37","Token":"Bearer BEARER eyJhbGciOiJIUzI1NiJ9.amFjaw.9ExeHcSn--iv0WDoTlLWSJukPzQUzNdTr0vxQd1d3BY"}
