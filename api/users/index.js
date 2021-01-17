@@ -3,6 +3,7 @@ import User from './userModel';
 import jwt from "jsonwebtoken";
 import movieModel from "../movies/movieModel"
 
+
 const router = express.Router(); // eslint-disable-line
 
 // Get all users
@@ -12,6 +13,7 @@ router.get('/', (req, res, next) => {
     .catch(next);
 });
 
+// get all favourites of a user
 router.get('/:userName/favourites', (req, res, next) => {
   const userName = req.params.userName;
   User.findByUserName(userName).populate('favourites').then(
@@ -31,12 +33,21 @@ router.get('/:userName', (req, res, next) => {
 router.delete('/:userName', (req, res, next) => {
   const userName = req.params.userName;
   User.findByUserName(userName).then((user) => {
-    User.deleteOne({_id: user._id})
-    .then(res.status(201).status("Good"))
-    .catch(next);
-    
-  });
-  return res;
+
+    if(user == null) {
+      res.status(401).json({
+        success: false,
+        msg: `${userName} not found`  
+      }).catch(next)
+    } else {
+      User.deleteOne({_id: user._id})
+      .then(res.status(201).json({
+        success: true,
+        msg: `${userName} deleted`
+      }))
+      .catch(next);
+    }
+  }).catch(next);
 });
 
 
@@ -99,6 +110,35 @@ router.post('/:userName/favourites', async (req, res, next) => {
   await user.favourites.push(movie._id);
   await user.save(); 
   res.status(201).json(user); 
+});
+
+// delete a favourite from a user
+router.delete('/:userName/favourites', async (req, res, next) => {
+  const userName = req.params.userName;
+  const id = req.body.id;
+  const movie = await movieModel.findByMovieDBId(id).catch(next);
+  const user = await User.findByUserName(userName).catch(next);
+
+  if(!movie) {
+    return res.status(404).json({ code: 404, msg: 'Movie not found.' });
+  }
+
+  if(!user) {
+    return res.status(404).json({ code: 404, msg: 'User not found.' });
+  }
+
+  if(!user.favourites.includes(movie._id)) {
+    return res.status(404).json({ code: 409, msg: 'Favourite does not exist' });
+  }
+
+  await user.favourites.pull(movie._id);
+  await user.save(); 
+  res.status(201).json({
+    success: true,
+    msg: "favourite deleted"
+  }); 
+
+
 });
 
 // Update a user

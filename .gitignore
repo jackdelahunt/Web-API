@@ -3,4 +3,4 @@ build
 npm-debug.log
 .env
 .DS_Store
-Logs/log.txt
+Logs/logs.txt
